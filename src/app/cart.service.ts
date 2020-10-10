@@ -31,7 +31,7 @@ export class CartService {
     return this.items;
   }
 
-  // 获取运送价格
+  // 运送价格
   getShippingPrices() {
     return this.http.get('/assets/shipping.json')
   }
